@@ -44,7 +44,6 @@ html
    height: auto;
    padding: 15px;
    background-color: #e893a7;
-
 }
 article
 {
@@ -74,14 +73,12 @@ aside
 {
    background-color: #F5E5E4;
    width: 54%;
-   height: 1000px;
+   height: auto;
    display: inline-block;
    vertical-align: top;
-   font-size: 35px;
+   font-size: 25px;
    color: black;
    float: right;
-   padding: 15px;
-   padding-bottom: 15px;
 }
 
 footer
