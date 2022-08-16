@@ -7,12 +7,11 @@ header
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-right: -0.5em;
+    width: auto;
 }
 #Container
  {
     background-color: #e89d84;
-    
-    
  }
   #Container p
   {
@@ -21,14 +20,15 @@ header
   font-family: Goudy Old Style;
   font-size: 40px;
   margin-top: 2px;
-  margin-bottom: 35px;
+  margin-bottom: 1px;
   }
 
   .Navi
   a{
  color: white;
  text-decoration: none;
- padding: 15px;
+ margin-bottom: -1.8em;
+ margin-left: 75px;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: bold;
  font-style: italic;
@@ -39,6 +39,31 @@ header
  list-style: none;
  display: inline-block;
  margin-top:-1.8em;
+}
+
+#Contents
+{
+ background-color: #c4a4b4;
+ height: auto;
+ border-bottom:#e893a7  10px solid ;
+ border-right: #e893a7  10px solid ;
+ border-left: #e893a7  10px solid;
+ 
+}
+#Contents .Box img
+{
+  width: 20em;
+  height: 20em;;
+  border: 0.3em groove #C4A4B4;
+  margin-right: 1.8em;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em; 
+  margin-left: 0.1em; 
+}
+#Contents .Box
+{
+  display: inline-table;
+  
 }
 
  
