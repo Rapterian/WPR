@@ -23,12 +23,11 @@ header
   margin-bottom: 1px;
   }
 
-  .Navi
-  a{
+.Navi a{
  color: white;
  text-decoration: none;
  margin-bottom: -1.8em;
- margin-left: 75px;
+ margin-left: 2em;
  font-family: Arial, Helvetica, sans-serif;
  font-weight: bold;
  font-style: italic;
@@ -48,22 +47,22 @@ header
  border-bottom:#e893a7  10px solid ;
  border-right: #e893a7  10px solid ;
  border-left: #e893a7  10px solid;
- 
+ margin-left: -0.5em;
+ margin-right: -0.5em ;
 }
 #Contents .Box img
 {
   width: 20em;
-  height: 20em;;
+  height: 20em;
   border: 0.3em groove #C4A4B4;
-  margin-right: 1.8em;
-  margin-bottom: 0.5em;
+  margin-right: -0.8em;
+  margin-bottom: -0.2em;
   margin-top: 0.5em; 
-  margin-left: 0.1em; 
+  margin-left: 1.1em; 
 }
 #Contents .Box
 {
   display: inline-table;
-  
 }
 
  

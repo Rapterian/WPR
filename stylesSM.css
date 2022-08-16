@@ -1,6 +1,7 @@
 body{
-    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat 0 0;
+    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat fixed 0 0;
     margin-bottom: 2em;
+    font-family: Goudy Old Style;
 }
 header{
     color: white;
@@ -50,6 +51,9 @@ header a:hover{
     margin-top: 0.5em; 
     margin-left: 0.1em; 
 }
+#boxes .box img:hover{
+    border: 0.3em groove black;
+}
 #boxes .box{
     display: inline-table; 
 }
@@ -65,4 +69,8 @@ footer{
     padding-left: 2em;
     padding-right: 2em;
     color: whitesmoke;
+}
+.Button_1:hover{
+    border:black solid 0.5em;
+    color: black;
 }
