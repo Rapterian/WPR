@@ -1,0 +1,54 @@
+body{
+    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat 0 0;
+}
+header{
+    color: white;
+    min-height: 5.4em;
+    border-top: #e893a7 10px solid;
+    border-bottom:#e893a7  10px solid ;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+}
+header #branding{
+    float:left ;
+}
+header nav{
+    float: right;
+    margin-top:-1.8em;
+    
+}
+header li{
+    float:left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+header .highlight, header .current a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+header .highlight, header .current a:hover{
+    color: white;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    }
+header a:hover{
+    color:black;
+    font-weight: bold;
+    
+}
+#boxes .box img{
+    width: 20em;
+    height: 20em;;
+    border: 0.3em groove #C4A4B4;
+    margin-right: 1.8em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em; 
+    margin-left: 0.1em; 
+}
+#boxes .box{
+    display: inline-table; 
+}
