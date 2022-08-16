@@ -44,7 +44,6 @@ html
    height: auto;
    padding: 15px;
    background-color: #e893a7;
-
 }
 article
 {
@@ -74,14 +73,56 @@ aside
 {
    background-color: #F5E5E4;
    width: 54%;
-   height: 1000px;
-   display: inline-block;
-   vertical-align: top;
-   font-size: 35px;
+   height: auto;
+   font-size: 25px;
    color: black;
-   float: right;
-   padding: 15px;
-   padding-bottom: 15px;
+   float:right;
+  padding-top: 100px;
+  padding-left: 60px;
+}
+
+#Links
+{
+   vertical-align: middle;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 200px 200px;
+   grid-gap: 10px;
+   margin: 40px 30px;
+}
+
+#OurStory
+{
+   grid-row-start: 1;
+   grid-row-end: 2;
+   position: relative;
+}
+
+#RSVP
+{
+   grid-row-start: 1;
+   grid-row-end: 2;
+   position: relative;
+}
+#Tunes
+{
+   grid-row-start: 2;
+   grid-row-end: 2;
+   position: relative;
+}
+
+#Snapshots
+{
+   grid-row-start: 2;
+   grid-row-end: 2;
+   position: relative;
+}
+
+#Venue
+{
+   grid-row-start: 3;
+   grid-row-end: 3;
+   position: relative;
 }
 
 footer
