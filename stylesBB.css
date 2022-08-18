@@ -20,7 +20,6 @@ html
     font-family: Goudy Old Style;
     display: inline-block;
 }
-
 #HeadingText
 {
    font-size: 100px;
@@ -37,10 +36,9 @@ html
    color: #0689cd;
    font-weight: bold;
 }
-
 #Body
 {
-   width: auto;
+   width: 100%;
    height: auto;
    padding: 15px;
    background-color: #e893a7;
@@ -48,7 +46,7 @@ html
 article
 {
    width: 40%;
-   height: auto;
+   height: 1050px;
    display: inline-block;
    vertical-align: top;
    padding: 15px;
@@ -71,64 +69,46 @@ article
 }
 aside
 {
+   display: inline-block;
    background-color: #F5E5E4;
-   width: 54%;
+   width:  45%;
    height: auto;
-   font-size: 25px;
-   color: black;
-   float:right;
-  padding-top: 100px;
-  padding-left: 60px;
+   float: right;
+   display: inline-block;
+   padding-left: 90px;
+   padding-right: 50px;
+   margin-right: 40px ;
+   margin-top: 5%;
 }
-
-#Links
+.ButtonHeading
 {
-   vertical-align: middle;
    text-align: center;
+   font-size: 25px;
+   text-decoration: underline;
+}
+.Imagecontainer
+{
    display: grid;
-   grid-template-columns: 200px 200px;
-   grid-gap: 10px;
-   margin: 40px 30px;
+   grid-template-columns: auto  auto auto;
+   grid-template-rows: auto auto auto;
+   justify-items: center;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
 }
-
-#OurStory
+.item
 {
-   grid-row-start: 1;
-   grid-row-end: 2;
-   position: relative;
+   text-align: center;
+   padding: auto auto;
+   font-size: 80px;
+   margin: 30px;
+   box-shadow: -3px 3px 3px 3px #e89d84;
+   border: 3px none;
 }
-
-#RSVP
-{
-   grid-row-start: 1;
-   grid-row-end: 2;
-   position: relative;
-}
-#Tunes
-{
-   grid-row-start: 2;
-   grid-row-end: 2;
-   position: relative;
-}
-
-#Snapshots
-{
-   grid-row-start: 2;
-   grid-row-end: 2;
-   position: relative;
-}
-
-#Venue
-{
-   grid-row-start: 3;
-   grid-row-end: 3;
-   position: relative;
-}
-
 footer
 {
    background-color: #0689cd;
-   width: auto;
+   width: 100%;
    height: 60px;
    font-size: 23px;
    opacity: 0.75;
