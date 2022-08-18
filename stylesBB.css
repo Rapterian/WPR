@@ -17,7 +17,7 @@ html
     display: flex; /* this is the magic css */
     justify-content:center; /* this is the magic css */
     align-items:center; /* this is the magic css */
-    font-family:Goudy Old Style;
+    font-family: Goudy Old Style;
     display: inline-block;
 }
 
@@ -63,7 +63,7 @@ article
 #ArticleImage1
 {
    width: 90%;
-   border-image-width: 20px;
+   border: solid 1px black;
 }
 #ArticleImage2
 {
