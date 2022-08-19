@@ -1,54 +1,58 @@
 header
 {
-    border-top: #e893a7 10px solid;
-    border-bottom:#e893a7  10px solid ;
-    border-right: #e893a7  10px solid ;
-    border-left: #e893a7  10px solid;
-    margin-left: -0.5em;
-    margin-top: -0.5em;
-    margin-right: -0.5em;
-    width: auto;
+  border-top: #e893a7 10px solid;
+  border-bottom:#e893a7  10px solid ;
+  border-right: #e893a7  10px solid ;
+  border-left: #e893a7  10px solid;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  margin-right: -0.5em;
+  width: auto;
+  height: auto;
+  position: relative;
 }
 #Container
- {
-    background-color: #e89d84;
- }
-  #Container p
-  {
+{
+  background-color: #C4A4B4;
+}
+#Container h1
+{
   text-align: center;
   color: white;
   font-family: Goudy Old Style;
-  font-size: 40px;
+  font-size: 120px;
   margin-top: 2px;
   margin-bottom: 1px;
-  }
-
-.Navi a{
- color: white;
- text-decoration: none;
- margin-bottom: -1.8em;
- margin-left: 2em;
- font-family: Arial, Helvetica, sans-serif;
- font-weight: bold;
- font-style: italic;
- float: right;
-  }
+}
+.Navi a
+{
+  color: #59108a;
+  text-decoration: none;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  font-family: Goudy Old Style;
+  font-weight: bold;
+  font-style: italic;
+  float: right;
+  font-size: 50px;
+  display: inline-block;
+}
 .Navi
 {
- list-style: none;
- display: inline-block;
- margin-top:-1.8em;
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
 }
 
 #Contents
 {
- background-color: #c4a4b4;
- height: auto;
- border-bottom:#e893a7  10px solid ;
- border-right: #e893a7  10px solid ;
- border-left: #e893a7  10px solid;
- margin-left: -0.5em;
- margin-right: -0.5em ;
+  background-color: #c4a4b4;
+  height: auto;
+  border-bottom:#e893a7  10px solid ;
+  border-right: #e893a7  10px solid ;
+  border-left: #e893a7  10px solid;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
 }
 #Contents .Box img
 {
@@ -65,5 +69,4 @@ header
   display: inline-table;
 }
 
- 
- 
+
