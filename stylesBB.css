@@ -71,13 +71,10 @@ article
 aside
 {
    background-color: #F5E5E4;
-   width:  45%;
+   width:  52%;
    height: auto;
-   float: right;
-   display: block;
-   padding-left: 90px;
-   padding-right: 50px;
-   margin-right: 40px ;
+   display: inline-block;
+   margin-left: 150px ;
    margin-top: 5%;
 }
 .ButtonHeading
@@ -103,16 +100,13 @@ aside
    text-align: center;
    padding: auto auto;
    font-size: 80px;
-   margin: 30px;
+   margin: 20px;
    box-shadow: -3px 3px 3px 3px #e89d84;
-   border: 3px none;
+   display: inline-block;
 }
 #Music
 {
    background-color: #070816;
-   transition-duration: 0.3s;
-   transition-property: transform;
-   transition-timing-function: ease-out;
 }
 #story
 {
@@ -129,6 +123,10 @@ aside
 #venue
 {
    background-color: #b2aaa7;
+}
+.buttonImages
+{
+   height: 250px;
 }
 footer
 {
