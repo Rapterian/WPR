@@ -74,7 +74,7 @@ aside
    width:  45%;
    height: auto;
    float: right;
-   display: inline-block;
+   display: block;
    padding-left: 90px;
    padding-right: 50px;
    margin-right: 40px ;
@@ -110,6 +110,9 @@ aside
 #Music
 {
    background-color: #070816;
+   transition-duration: 0.3s;
+   transition-property: transform;
+   transition-timing-function: ease-out;
 }
 #story
 {
@@ -122,6 +125,10 @@ aside
 #snapshots
 {
    background-color: rgb(209, 201, 195);
+}
+#venue
+{
+   background-color: #b2aaa7;
 }
 footer
 {
