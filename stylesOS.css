@@ -85,3 +85,22 @@ p
   font-size: 20px;
   margin: 20px;
 }
+footer
+{
+  background-color: #C4A4B4;
+  width: auto;
+  height: 120px;
+  border-top: #e893a7 10px solid;
+  border-bottom:#e893a7  10px solid ;
+  border-right: #e893a7  10px solid ;
+  border-left: #e893a7  10px solid;
+  margin-left: -0.5em;
+  margin-top: -0.5em;
+  margin-right: -0.5em;
+}
+#writing
+{
+  float: right;
+  font-size: 30px;
+  padding: 15px;
+}
