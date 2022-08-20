@@ -51,4 +51,17 @@ span{
 }  
 a{  
     background-color: transparent;  
-}  
+} 
+footer
+{
+   width: auto;
+   height: 90px;
+   font-size: 13px;
+}
+#copyright
+{
+   float: right;
+   padding-bottom: 15px;
+   padding-right: 15px;
+   padding-top: 100px;
+} 
