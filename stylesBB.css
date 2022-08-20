@@ -14,9 +14,9 @@ html
     background-size:cover;
     background-position: center;
     opacity: 0.75;
-    display: flex; /* this is the magic css */
-    justify-content:center; /* this is the magic css */
-    align-items:center; /* this is the magic css */
+    display: flex;
+    justify-content:center;
+    align-items:center;
     font-family: Goudy Old Style;
     display: inline-block;
 }
@@ -102,7 +102,7 @@ aside
    font-size: 80px;
    margin: 20px;
    box-shadow: -3px 3px 3px 3px #e89d84;
-   display: inline-block;
+   display: inline-table;
 }
 #Music
 {
