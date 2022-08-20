@@ -40,6 +40,7 @@ nav
     color:black;
     font-weight: bold;
     text-decoration: none;
+    padding: 15px;
 }
 .current a:hover{
     color: white;
@@ -79,27 +80,27 @@ footer
 {
     overflow: hidden;
     color: black;
-    font-size:20px;
+    font-size:30px;
     font-weight: bold;
 }
 #Submit
 {
     margin-top: 15px;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 #Cancel
 {
     margin-top: 15px;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
 }
 #writing
 {
     float: right;
-    font-size: 40px;
+    font-size: 30px;
     padding: 15px;
     display: inline;
 }
