@@ -1,5 +1,5 @@
 body{
-    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat 0 0;
+    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat;
     object-fit: cover;
     font-family: Goudy Old Style;
     background-position: center;
@@ -8,17 +8,13 @@ header
 {
     color: white;
     min-height: 3.4em;
-    border-top: #e893a7 10px solid;
-    border-bottom:#e893a7  10px solid ;
-    border-right: #e893a7  10px solid ;
-    border-left: #e893a7  10px solid;
+    border: #e893a7 10px solid;
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-right: -0.5em;
 }
 header #branding
 {
-    float: left;
     font-size: 1em;
     color: black;
     font-weight: bold;
@@ -28,6 +24,8 @@ header nav
 {
     float: right;
     font-size: 1em;
+    margin-top: 2.5em;
+    margin-right: 2em;
 }
 header li{
     float: left;
@@ -39,12 +37,12 @@ header li{
 }
 header .highlight, header .current a{
 
-    color:black;
+    color:white;
     font-weight: bold;
     text-decoration: none;
 }
 .header .highlight, header .current a:hover{
-    color: white;
+    color: black;
 }
 #boxes .box img{
     width: 20em;
@@ -54,9 +52,10 @@ header .highlight, header .current a{
     margin-bottom: 0.5em;
     margin-top: 0.5em; 
     margin-left: 0.1em; 
+    object-fit: cover;
 }
 #boxes .box img:hover{
-    border: 0.3em groove black;
+    border: 0.3em dotted white;
 }
 #boxes .box{
     display: inline-table; 
@@ -77,6 +76,7 @@ footer
     padding-left: 2em;
     padding-right: 2em;
     color: whitesmoke;
+    margin-top: 2em;
 }
 .Button_1:hover
 {
