@@ -1,11 +1,11 @@
 #LoginPage
 {
     background-color: #e89d84;
-    width: 400px;
+    width: 500px;
     height: 500px; 
-    padding: 25%;  
-    font-family: Goudy Old Style;
-
+    padding-left: 5%;  
+    padding-top: 3%;
+    font-family: Goudy Old Style;   
 }
 #heading
 {
