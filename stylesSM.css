@@ -1,13 +1,12 @@
 body{
-    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat;
+    background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat fixed 0 0;
     font-family: Goudy Old Style;
-    background-size:cover;
     background-position: center;
 }
 header
 {
-    height: auto;
-    width: auto;
+    color: white;
+    min-height: 3.4em;
     border-top: #e893a7 10px solid;
     border-bottom:#e893a7  10px solid ;
     border-right: #e893a7  10px solid ;
@@ -15,41 +14,39 @@ header
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-right: -0.5em;
-    background-color: #C4A4B4;
 }
-#branding
+header #branding
 {
-    display: inline-block;
-    font-size: 120px;
+    float: left;
+    font-size: 1em;
     color: black;
     font-weight: bold;
-    margin: 20px;
-    margin-top: 20px;
+    display:inline-block;
 }
-nav
+header nav
 {
-    display: inline-block;
-    font-size: 60px;
-    margin-left: 541px;
+    float: right;
+    font-size: 1em;
+}
+header li{
+    float: left;
 }
 .current
 {
-    display: inline;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    display: inline-block;
+    padding: 0px 0px 0 20px;
 }
-.current a{
+header .highlight, header .current a{
 
     color:black;
     font-weight: bold;
     text-decoration: none;
-    padding: 15px;
 }
-.current a:hover{
+.header .highlight, header .current a:hover{
     color: white;
 }
 #boxes .box img{
-    width: 25em;
+    width: 20em;
     height: 25em;
     border: 0.3em groove #C4A4B4;
     margin-right: 1.8em;
@@ -65,54 +62,22 @@ nav
 }
 footer
 {
-    background-color: #C4A4B4;
     width: auto;
     height: 100px;
-    border-top: #e893a7 10px solid;
-    border-bottom:#e893a7  10px solid ;
-    border-right: #e893a7  10px solid ;
-    border-left: #e893a7  10px solid;
-    margin-left: -0.5em;
-    margin-top: -0.5em;
-    margin-right: -0.5em;
-    margin-bottom: -0.5em;
-}
-.Buttons
-{
     text-align: center;
-    padding: 15px 15px 15px 50px;
-    margin-left: 45%;
-    display: inline-block;
-    border: 5px solid;
-    border-radius: 50px;
-    background-color: #f5e5e4;
-    margin-bottom: 200px;
 }
-#Upload
+.Button_1
 {
-    overflow: hidden;
-    color: black;
-    font-size:30px;
-    font-weight: bold;
+    height: 3em;
+    width: 30em;
+    background-color: #b5b3b1;
+    border: solid 0.5em;
+    border-radius: 5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    color: whitesmoke;
 }
-#Submit
+.Button_1:hover
 {
-    margin-top: 15px;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-}
-#Cancel
-{
-    margin-top: 15px;
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-}
-#writing
-{
-    float: right;
-    font-size: 30px;
-    padding: 15px;
-    display: inline;
+    border: black solid 0.5em;
 }
