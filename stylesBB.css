@@ -6,6 +6,16 @@ html
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+header
+{
+   border-top: #e893a7 10px solid;
+   border-bottom:#e893a7  10px solid;
+   border-right: #e893a7  10px solid;
+   border-left: #e893a7  10px solid;
+   margin-left: -0.5em;
+   margin-top: -0.5em;
+   margin-right: -0.5em;
+}
 .TextHeaderBox
 {
     background-image: url(./Images/Image.png);
@@ -41,7 +51,14 @@ html
    width: 100%;
    height: auto;
    padding: 15px;
-   background-color: #e893a7;
+   background-color: #C4A4B4;
+   border-top: #e893a7 10px solid;
+   border-bottom:#e893a7  10px solid;
+   border-right: #e893a7  10px solid;
+   border-left: #e893a7  10px solid;
+   margin-left: -0.5em;
+   margin-top: -0.5em;
+   margin-right: -0.5em;
 }
 p
 {
@@ -130,23 +147,21 @@ aside
 }
 footer
 {
-   background-color: #0689cd;
+   background-color:#C4A4B4;
    width: auto;
    height: 90px;
    font-size: 23px;
-   opacity: 0.75;
-   margin: 0px;
+   border-top: #e893a7 10px solid;
+   border-bottom:#e893a7  10px solid ;
+   border-right: #e893a7  10px solid ;
+   border-left: #e893a7  10px solid;
+   margin-left: -0.5em;
+   margin-top: -0.5em;
+   margin-right: -0.5em;
 }
 #copyright
 {
    float: right;
    padding-bottom: 25px;
    padding-right: 15px;
-}
-#Date
-{
-   margin: 0px;
-   float: left;
-   padding-left: 15px; 
-   padding-top: 17px;  
 }
