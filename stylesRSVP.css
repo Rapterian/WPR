@@ -6,15 +6,20 @@
 #nav{
     overflow: hidden;
     background-color: #c4a4b4;
+    text-align: center;
 }
 #nav a{
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    margin-left: 5px;
-    padding: 14px 135px;
+    padding: 0.5% 5%;
     text-decoration: none;
+    font-family: Goudy Old Style;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 160%;
+    margin-left: 2%;
 }
 #nav a:hover{
     background-color: #e893a7;
