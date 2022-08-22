@@ -1,0 +1,72 @@
+body{
+    background:url(./Images/tom-gainor-ZqLeQDjY6fY-unsplash.jpg) no-repeat ;
+    object-fit: cover;
+    font-family: Goudy Old Style;
+    background-position: center;
+}
+header
+{
+    min-height: 3.4em;
+    border: #e893a7 5px solid;
+    border-radius: 1em;
+}
+header #branding
+{
+    font-size: 1em;
+    font-weight: bold;
+    display:inline-block;
+}
+.highlight{
+    margin-left: 0.5em;
+}
+header nav
+{
+    float: right;
+    font-size: 1.11em;
+    margin-top: 1.3em;
+}
+header li{
+    float: left;
+}
+.current
+{
+    display: inline-block;
+    padding: 20px;
+}
+header .highlight, header{
+
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.current a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+.current a:hover{
+    color: darkgray;
+}
+.container2{
+    float: left;
+    width: 35em;
+    background-color: #e893a7;
+    margin-top: 1.5em;
+    margin-left: 1em;
+    text-align: center;
+    border-radius: 1em;
+    box-shadow:white 0.5em 0.5em 1em ;
+}
+#map{
+    margin-top: 2em;
+    margin-left: 1em;
+    border-radius: 1em;
+    box-shadow:#e893a7 0.5em 0.5em 1em ;
+    float: le;
+}
+footer{
+    border: solid  #e893a7 5px;
+    height: 3em;
+    border-radius: 1em;
+    margin-top: 2em;
+}
