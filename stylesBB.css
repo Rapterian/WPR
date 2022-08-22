@@ -1,10 +1,6 @@
-html 
+body
 {
-    color:black;
-    font-family: 'Lato', 'Arial', 'sans-serif';
-    font-weight: 300;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+   width: 100%;
 }
 header
 {
@@ -12,152 +8,95 @@ header
    border-bottom:#e893a7  10px solid;
    border-right: #e893a7  10px solid;
    border-left: #e893a7  10px solid;
-   margin-left: -0.5em;
-   margin-top: -0.5em;
-   margin-right: -0.5em;
+   margin-top: -0.3em;
+   margin-left: -0.3em;
+   margin-right: 0.3em;
+   background: url(./Images/OG.jpg) no-repeat;
+   background-size: cover;
+   height: 400px;
+   text-align: center;
 }
 .TextHeaderBox
 {
-    background-image: url(./Images/Image.png);
-    width:100%;
-    height: 500px;
-    background-size:cover;
-    background-position: center;
-    opacity: 0.75;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    font-family: Goudy Old Style;
-    display: inline-block;
-}
-#HeadingText
-{
-   font-size: 100px;
+   font-family: Goudy Old Style;
+   display: inline-block;
    text-align: center;
-   margin-top: 200px;
-   color: #0689cd;
+   padding-top: 120px;
+   color: white;
    font-weight: bold;
+   font-size: 280%;
+   text-shadow: 3px 3px 3px black;
 }
-#headingDate
+.TextHeaderBox #headingDate
 {
-   font-size: 60px;
-   text-align: center;
-   margin-bottom: 160px;
-   color: #0689cd;
-   font-weight: bold;
+   font-size: 30px;
 }
 #Body
 {
-   width: 100%;
    height: auto;
-   padding: 15px;
+   padding: 10px;
    background-color: #C4A4B4;
-   border-top: #e893a7 10px solid;
-   border-bottom:#e893a7  10px solid;
-   border-right: #e893a7  10px solid;
-   border-left: #e893a7  10px solid;
-   margin-left: -0.5em;
-   margin-top: -0.5em;
-   margin-right: -0.5em;
+   margin-left: -0.6em;
 }
 p
 {
-   font-size: 30px;
+   font-size: 15px;
 }
 article
 {
    width: 40%;
-   height: 1100px;
    display: inline-block;
    vertical-align: top;
-   padding: 15px;
-   font-size: 25px;
+   padding: 10px;
    text-align: center;
 }
 #ArticlePar1
 {
    text-align: center;
    font-weight: bold;
-   font-size: 40px;
+   font-size: 20px;
 }
 #ArticleImage1
 {
    width: 90%;
-   border: solid 1px black;
+   border: solid 0.5px black;
 }
 aside
 {
    background-color: #F5E5E4;
-   width:  52%;
-   height: auto;
+   width:  50%;
    display: inline-block;
-   margin-left: 150px ;
-   margin-top: 5%;
+   margin-left: 50px;
+   margin-top: 1%;
 }
-.ButtonHeading
-{
+.ButtonHeading h2{
    text-align: center;
-   font-weight: bold;
-   font-size: 25px;
-   text-decoration: underline;
-   font-weight: bold;
+   font-size: 20px;
 }
-.Imagecontainer
+aside .item
 {
-   display: grid;
-   grid-template-columns: auto  auto auto;
-   grid-template-rows: auto auto auto;
-   justify-items: center;
-   justify-content: center;
-   align-items: center;
-   align-content: center;
-}
-.item
-{
-   text-align: center;
-   padding: auto auto;
-   font-size: 80px;
-   margin: 20px;
-   box-shadow: -3px 3px 3px 3px #e89d84;
    display: inline-table;
+   padding-left: 10px;
+   padding-bottom: 10px;
 }
-#Music
+aside .item img
 {
-   background-color: #070816;
+   border: 0.3em groove #C4A4B4;
+   height: 160px;
 }
-#story
-{
-   background-color: #f5f5f5;
-}
-#rsvp
-{
-   background-color: #f9eadf;
-}
-#snapshots
-{
-   background-color: rgb(209, 201, 195);
-}
-#venue
-{
-   background-color: #b2aaa7;
-}
-.buttonImages
-{
-   height: 250px;
-}
+
 footer
 {
    background-color:#C4A4B4;
    width: auto;
-   height: 90px;
-   font-size: 23px;
+   height: 40px;
+   font-size: 10px;
    border-top: #e893a7 10px solid;
    border-bottom:#e893a7  10px solid ;
    border-right: #e893a7  10px solid ;
    border-left: #e893a7  10px solid;
-   margin-left: -0.5em;
-   margin-top: -0.5em;
-   margin-right: -0.5em;
+   margin-left: -0.9em;
+   margin-right: 0.9em;
 }
 #copyright
 {
