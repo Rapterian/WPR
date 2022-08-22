@@ -69,9 +69,36 @@ nav
 .contents
 {
    width: 70rem;
-   height: 60rem;
+   height: auto;
    background-color: #e89d84;
    margin: auto;
    box-shadow: 5px 5px 10px  #bd7259 ;
    border-radius: 20px;
+}
+
+.artic
+{
+ padding-top: 5px;
+ text-align: center;
+ padding-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ color:   #f5e5e4;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.artic h4
+{
+  color: #f5e5e4;
+  font-family: Goudy Old Style;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+footer
+{
+  text-align: center;
+  font-size: 70%;
 }
