@@ -8,9 +8,9 @@ header
    border-bottom:#e893a7  10px solid;
    border-right: #e893a7  10px solid;
    border-left: #e893a7  10px solid;
-   margin-top: -0.3em;
-   margin-left: -0.3em;
-   margin-right: 0.3em;
+   margin-top: -0.5em;
+   margin-left:-0.5em;
+   margin-right: 0.5em;
    background: url(./Images/OG.jpg) no-repeat;
    background-size: cover;
    height: 400px;
@@ -68,6 +68,7 @@ aside
    display: inline-block;
    margin-left: 50px;
    margin-top: 1%;
+   padding-left: 15px;
 }
 .ButtonHeading h2{
    text-align: center;
@@ -95,12 +96,12 @@ footer
    border-bottom:#e893a7  10px solid ;
    border-right: #e893a7  10px solid ;
    border-left: #e893a7  10px solid;
-   margin-left: -0.9em;
-   margin-right: 0.9em;
+   margin-left: -0.8em;
+   margin-right: 0.8em;
 }
 #copyright
 {
    float: right;
    padding-bottom: 25px;
-   padding-right: 15px;
+   padding-right: 10px;
 }
