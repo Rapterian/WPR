@@ -1,87 +1,110 @@
-header
+body
 {
-  border-top: #e893a7 10px solid;
-  border-bottom:#e893a7  10px solid ;
-  border-right: #e893a7  10px solid ;
-  border-left: #e893a7  10px solid;
-  margin-left: -0.5em;
-  margin-top: -0.5em;
-  margin-right: -0.5em;
-  width: auto;
-  height: auto;
-  position: relative;
+  background: url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat;
+  background-size: cover;
 }
-#Container
+
+header h1
 {
-  background-color: #C4A4B4;
-}
-#Container h1
-{
+  font-family: Goudy Old Style;
   text-align: center;
-  color: white;
-  font-family: Goudy Old Style;
-  font-size: 500%;
-  margin-top: 2px;
-  margin-bottom: 1px;
+  color: #f5e5e4;
+  font-size: 200%;
 }
-.Navi a
-{
-  color: #59108a;
-  text-decoration: none;
-  margin-bottom: 30px;
-  margin-left: 50px;
-  font-family: Goudy Old Style;
-  font-weight: bold;
-  font-style: italic;
-  float: right;
-  font-size: 250%;
-  display: block;
-}
+
+
 nav
 {
   text-align: center;
 }
 .Navi
 {
-  list-style: none;
   display: inline-block;
-  margin-top: 20px;
+  list-style: none;
+ 
 }
 
-#Contents
+.Navi a
 {
-  background-color: #c4a4b4;
-  height: auto;
-  border-bottom:#e893a7  10px solid ;
-  border-right: #e893a7  10px solid ;
-  border-left: #e893a7  10px solid;
-  margin-left: -0.5em;
-  margin-right: -0.5em;
+  text-decoration: none;
+  color:  #f5e5e4;
+  padding: 1rem;
 }
-#Contents .Box img
+ .container
+ {
+  padding: 2rem;
+ }
+
+ .sliderWrapper
 {
-  width: 20em;
-  height: 20em;
-  border: 0.3em groove #C4A4B4;
-  margin-right: 60px;
-  margin-bottom: -0.2em;
-  margin-top: 0.5em; 
-  margin-left: 60px; 
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
 }
-#Contents .Box
+
+.Slider
 {
-  display: inline-table;
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
 }
-h4
+
+.Slider img
+{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+
+}
+
+.Slider-Nav
+{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.contents
+{
+   width: 70rem;
+   height: auto;
+   background-color: #e89d84;
+   margin: auto;
+   box-shadow: 5px 5px 10px  #bd7259 ;
+   border-radius: 20px;
+}
+
+.artic
+{
+ padding-top: 5px;
+ text-align: center;
+ padding-bottom: 5px;
+ padding-left: 10px;
+ padding-right: 10px;
+ color:   #f5e5e4;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.artic h4
+{
+  color: #f5e5e4;
+  font-family: Goudy Old Style;
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 120%;
+  text-decoration: underline;
+}
+
+footer
 {
   text-align: center;
-  color: #59108a;
-  font-size: 20px;
-}
-p
-{
-  color: black;
-  font-family: Arial;
-  font-size: 20px;
-  margin: 20px;
+  font-size: 70%;
 }
