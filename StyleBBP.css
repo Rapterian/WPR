@@ -1,0 +1,121 @@
+body{
+    background: url(./Images/BBParty/confetti4.jpg) fixed;
+    background-size: contain;
+    height: auto;
+    border-top: #e893a7 10px solid;
+    border-bottom:#e893a7  10px solid ;
+    border-right: #e893a7  10px solid ;
+    border-left: #e893a7  10px solid;
+    margin-left: -0.2em;
+    margin-top: -0.2em;
+    margin-right: -0.2em;
+    margin-bottom: -0.2em;
+}
+header{
+    text-align: center;
+    font-family: Arial;
+    margin-right: 20px;
+    font-weight: bolder;
+    text-shadow: 5px 5px 3px #b192a1;
+    margin-top: 20px;
+}
+span{
+    display: inline-block;
+    font-size: 40px;
+    background-color: white;
+}
+#male{
+    transform: scale(-1,1);
+}
+#line{
+    font-size: 50px;
+}
+#Body{
+
+    padding: 15px; 
+    height: auto;
+    margin-right: 20px;
+    display: inline-block;
+}
+#ContactDetails{
+    display: inline-block;
+    background-color: #b192a1;
+    width: 100%;
+    height: 300px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+}
+h2{
+    font-family: Goudy Old Style;
+    font-size: 30px;
+    display: inline;
+    vertical-align: top;
+    margin-left: 45%;
+}
+h3{
+    text-align: center;
+}
+#Hleft{
+    padding-left: 15px;
+}
+img{
+    height: 170px;
+    float: right;
+    margin: 15px;
+}
+#mail{
+    margin-top: 110px;
+    padding: 5px;
+}
+.Activities{
+    background-color: #b192a1;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+}
+#Bachelorette{
+    background-color: blueviolet;
+    display: inline-block;
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+#Bachelor{
+    background-color: brown;
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    height: auto;
+    padding: 10px;
+    margin-left: 10px;
+}
+#Together{
+    background-color: teal;
+    display: inline-block;
+    vertical-align: bottom;
+    width: 92%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+footer{
+    height: auto;
+    margin-right: 33px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+    background-color: #b192a1;
+}
+footer #footer{
+    color: 0;
+    font-size: 13px;
+}
+li{
+    margin-left: 40px;
+    display: inline-flex;
+}
+footer a{
+    text-decoration: none;
+}
