@@ -36,47 +36,53 @@ span{
     height: auto;
     margin-right: 20px;
     display: inline-block;
+    background-color: yellow;
+    margin-left: 20px;
 }
 #ContactDetails{
     display: inline-block;
     background-color: #b192a1;
     width: 100%;
-    height: 300px;
-    margin-bottom: 5px;
-    padding-top: 15px;
+    height: auto;
+    margin-bottom: 20px;
+    padding-top: 20px;
 }
 h2{
     font-family: Goudy Old Style;
-    font-size: 30px;
+    font-size: 40px;
     display: inline;
     vertical-align: top;
-    margin-left: 45%;
+    margin-left: 42%;
 }
 h3{
     text-align: center;
 }
 #Hleft{
-    padding-left: 15px;
+    padding-left: 30px;
+    font-size: 20px;
 }
 img{
-    height: 170px;
+    height: 200px;
     float: right;
-    margin: 15px;
+    margin-top: 30px;
+    margin-right: 50px;
 }
 #mail{
-    margin-top: 110px;
+    margin-top: 70px;
     padding: 5px;
 }
 .Activities{
     background-color: #b192a1;
-    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     height: auto;
     text-align: center;
+    width: 100%;
 }
 #Bachelorette{
     background-color: blueviolet;
     display: inline-block;
-    width: 45%;
+    width: 40%;
     height: auto;
     padding: 10px;
 }
@@ -84,7 +90,7 @@ img{
     background-color: brown;
     display: inline-block;
     vertical-align: top;
-    width: 45%;
+    width: 40%;
     height: auto;
     padding: 10px;
     margin-left: 10px;
@@ -93,24 +99,24 @@ img{
     background-color: teal;
     display: inline-block;
     vertical-align: bottom;
-    width: 92%;
+    width: 86%;
     height: auto;
     padding: 10px;
     margin-top: 10px;
 }
 footer{
     height: auto;
-    margin-right: 33px;
-    margin-left: 15px;
-    margin-bottom: 15px;
-    padding: 15px;
-    font-size: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
     color: black;
     background-color: #b192a1;
+    width: 100%;
 }
-footer #footer{
+footer .footer{
     color: 0;
     font-size: 13px;
+    background-color: aqua;
 }
 li{
     margin-left: 40px;
