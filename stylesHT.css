@@ -1,0 +1,52 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(./Images/louise-moisao-5cnWvU-ui04-unsplash.jpg);
+    background-size: 50%;
+}
+
+header h1
+{
+  font-family: Goudy Old Style;
+  text-align: center;
+  color: #f5e5e4;
+  font-size: 200%;
+  padding: 1rem;
+}
+
+
+nav
+{
+  text-align: center;
+
+}
+.Navi
+{
+  display: inline-block;
+  list-style: none;
+ 
+}
+
+.Navi a
+{
+  text-decoration: none;
+  color:  #f5e5e4;
+  padding: 1rem;
+}
+ #Content
+ {
+    width: 60%;
+    height: 50rem;
+    border: 5px solid #f5e5e4 ;
+    box-shadow: #E893A7 2px 2px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+     background-image: linear-gradient(#E893A7,#E89D84);
+ }
