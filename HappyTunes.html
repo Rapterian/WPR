@@ -7,21 +7,55 @@
     <title>Happpy Tunes</title>
     <link rel="stylesheet" href="./stylesHT.css"> 
 </head>
-<body>
-    <header>
-        <img id="logo" src="./Images/The Swarnlogo.jfif">
-        <h1 id="HeadingTitle">The Swan guest House</h1>
-        <nav id="navigation">
-            <ul>
-                <li class="links"><a href="" >Home</a></li>
-                <li class="links"><a href="" >Rooms</a></li>
-                <li class="links"><a href="" >Food</a></li>
-                <li class="links"><a href="" >Contacts</a></li>
-            </ul>
-        </nav>
+<body style="background-color: #C4A4B4;">
 
-        <hr>
-        
-    </header>
+    <section id="Outer">
+        <header>
+            <h1>Happy Tunes</h1>
+            <nav>
+              <ul>
+               <li class="Navi">
+                  <a href="./BlissfulBeginnings.html" target = "_blank">Blissful Beginings</a>
+               </li>
+               <li class="Navi">
+                 <a href="./OurStory.html" target = "_blank">Our Story</a> 
+               </li>
+               <li class="Navi">
+                <a href="./SnapshotMoments.html" target = "_blank">Snapshot Moments</a> 
+               </li>
+               <li class="Navi">
+                 <a href="./RSVP&Registry.html" target = "_blank">RSVP & Registry</a>
+               </li>
+               <li class="Navi">
+                <a href="./TheVenue.html" target = "_blank">The Venue</a> 
+               </li>
+              </ul>
+            </nav>
+          </header>
+          <section id="Content">
+             <article>
+              <h2>Song list :</h2>
+              <p class="Songs">Walk in Song :</p>
+              <audio disable controls class="Audio">
+                <source src="./music/Up1.mp3" type="audio/mp3">
+            </audio>  
+            <h2 id="HSongs">We would love some of your suggestions!!</h2>
+               <fieldset>
+                <label for="name">Song Name</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="Aname">Artist name</label>
+                <input type="text" name="Aname" id="Aname">
+                <br>
+                <label for="Genre">Genre</label>
+                <input type="text" name="Genre" id="Genre">
+               </fieldset>
+               <button>Submit</button>
+             </article>
+          </section>
+          <footer><p> Created and Designed by Anrich Kruger Copyright &copy reserved  </p></footer>
+    </section>
+   
+    
 </body>
 </html>

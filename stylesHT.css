@@ -1,0 +1,132 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-image: url(./Images/louise-moisao-5cnWvU-ui04-unsplash.jpg); 
+    background-size: 100%;
+}
+
+header h1
+{
+  font-family: Goudy Old Style;
+  text-align: center;
+  color: #f5e5e4;
+  font-size: 200%;
+  padding: 1rem;
+}
+
+
+nav
+{
+  text-align: center;
+
+}
+.Navi
+{
+  display: inline-block;
+  list-style: none;
+ 
+}
+
+.Navi a
+{
+  text-decoration: none;
+  color:  #f5e5e4;
+  padding: 1rem;
+}
+ #Content
+ {
+    width: 60%;
+    height: 50rem;
+    border: 5px solid #f5e5e4 ;
+    box-shadow: #E893A7 2px 2px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+     background-image: linear-gradient(#E893A7,#E89D84);
+ }
+
+ article
+ {
+  width: 90%;
+  height: 45em;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+  border: 5px dotted #f5e5e4 ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+ }
+
+ article h2
+ {
+  font-family: Goudy Old Style;
+  text-align: center;
+  color: #f5e5e4;
+  font-size: 150%;
+  padding: 1rem;
+}
+
+.Songs
+{
+  font-family: Goudy Old Style;
+  color: #f5e5e4; 
+  font-size: 100%;
+  margin-left: 5%;
+  position: relative;
+  top: 2.5em;
+  text-decoration: underline;
+}
+ 
+.Audio
+{
+  float: right;
+  margin-right: 5%;
+}
+
+#HSongs
+{
+  position: relative;
+  top: 5rem;
+  left: 9.75rem;
+  text-decoration: underline;
+}
+fieldset
+{
+  position: relative;
+  top: 5rem;
+  width: 40%;
+  margin: auto;
+  border: 2px solid #f5e5e4 ;
+  text-align: center;
+}
+footer
+{
+  text-align: center;
+  font-size: 70%;
+  padding-top: 1rem;
+}
+
+
+label
+{
+  color: #f5e5e4;
+  width: 50%;
+  display: inline-block;
+}
+
+button
+{
+ position: relative;
+ left: 19.5rem;
+ top: 5.5rem;
+ background-color: #E893A7;
+ padding: 8px;
+ border-radius: 20%;
+ border: 2px dotted #f5e5e4 ;
+}
