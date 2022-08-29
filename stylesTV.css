@@ -68,8 +68,7 @@ header .highlight, header{
 
 #image1{
     float: right;
-    height: 15em;
-    width: 25em;
+    width: 30%;
     object-fit: cover;
     background-position: center;
     margin-right: 3em;
@@ -80,37 +79,34 @@ header .highlight, header{
 }
 #image2{
     float: right;
-    height: 15em;
-    width: 25em;
+    width: 30%;
     object-fit: cover;
     background-position: center;
     margin-right: 3em;
     border-radius: 1em;
-    margin-top: 2.5em;
+    margin-top: 5em;
     border: 0.3em groove #C4A4B4;
     object-fit: cover;
 }
 #image3{
     float: right;
-    height: 15em;
-    width: 25em;
+    width: 30%;
     object-fit: cover;
     background-position: center;
     margin-right: 3em;
     border-radius: 1em;
-    margin-top: 2.5em;
+    margin-top: 5em;
     border: 0.3em groove #C4A4B4;
     object-fit: cover;
 }
 #image4{
     float: right;
-    height: 15em;
-    width: 35em;
+    width: 50%;
     object-fit: cover;
     background-position: center;
-    margin-right: 3em;
+    margin-right: 8.5em;
     border-radius: 1em;
-    margin-top: 1em;
+    margin-top: 1.5em;
     border: 0.3em groove #C4A4B4;
     object-fit: cover;
 }
@@ -118,6 +114,6 @@ footer{
     border: solid  #e893a7 5px;
     height: 3em;
     border-radius: 1em;
-    margin-top: 57em;
+    margin-top: 65em;
     text-align: center;
 }
