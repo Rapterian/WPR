@@ -64,18 +64,26 @@
     bottom: 0;
     text-align: center;
     padding-top: 2.5em;
-    background-image: url(Images/wedding_presents.jpg);
+    background-color: #f5e5e4;
+    border: solid;
+    /* background-image: url(Images/wedding_presents.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    box-shadow: 10px 10px 5px 20px #f5e5e4 inset;
+    box-shadow: 10px 10px 5px 20px #f5e5e4 inset; */
 
 }
-
+.registry h3{
+    margin-top: 20em;
+}
+.registry input{
+    margin-bottom: 2em;
+}
 .kitchen{
-    width: 50%;
-    margin-left: 25%;
+    width: 25%;
+    float: left;
     text-align: left;
     list-style-type: none;
+    margin-top: 15px;
     /* background-image: url(Images/kithcen_background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -83,8 +91,8 @@
     
 }
 .dining{
-    width: 50%;
-    margin-left: 25%;
+    width: 25%;
+    float: left;
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
@@ -93,8 +101,8 @@
     background-repeat: no-repeat; */
 }
 .linen{
-    width: 50%;
-    margin-left: 25%;
+    width: 25%;
+    float: left;
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
@@ -104,8 +112,8 @@
     background-position: center; */
 }
 .home{
-    width: 50%;
-    margin-left: 25%;
+    width: 25%;
+    float: left;
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
