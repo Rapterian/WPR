@@ -5,8 +5,8 @@
 }
 body
 {
-    background-image: url(./Images/louise-moisao-5cnWvU-ui04-unsplash.jpg); 
-    background-size: 100%;
+    background-image: url(./Images/Heading\ Background.png); 
+    background-size: 130%;
 }
 
 header h1
@@ -134,7 +134,7 @@ button
 main
 {
   width: 50%;
-  height: 30%;
+  height: 35%;
   border: 5px solid #f5e5e4 ;
   margin: auto;
   overflow: scroll;
