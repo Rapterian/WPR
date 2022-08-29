@@ -11,53 +11,77 @@
 </head>
 
 <body>
-    <header id="header" >
-        <p class="heading">RSVP and Registry</p>
+    <header id="header">
+        <p class="heading">RSVP & Registry</p>
     </header>
 
     <nav id="nav">
-        <a href="BlissfulBeginnings.html">Blissful Beginnings</a>
-        <a href="HappyTunes.html">Happy Tunes</a>
-        <a href="OurStory.html">Our Story</a>
-        <a href="SnapshotMoments.html">Snapshot Moments</a>
-        <a href="RSVP&Registry.html">RSVP and Registry</a>
-        <a href="./BachelorandBacheloretteParty.html">Bachelor & Bachelorette Party</a>
+        <nav>
+            <ul>
+                <li class="Navi">
+                    <a href="./BlissfulBeginnings.html">Blissful Beginnings</a>
+                </li>
+                <li class="Navi">
+                    <a href="./OurStory.html">Our Story</a>
+                </li>
+                <li class="Navi">
+                    <a href="./HappyTunes.html">Happy Tunes</a>
+                </li>
+                <li class="Navi">
+                    <a href="./SnapshotMoments.html">Snapshot Moments</a>
+                </li>
+                <li class="Navi">
+                    <a href="./RSVP&Registry.html">RSVP & Registry</a>
+                </li>
+                <li class="Navi">
+                    <a href="./TheVenue.html">The Venue</a>
+                </li>
+                <li class="Navi">
+                    <a href="./BachelorandBacheloretteParty.html">Bachelor & Bachelorette Party</a>
+                </li>
+            </ul>
+        </nav>
     </nav>
 
     <form class="RSVP">
-        <h2>Are you comming:</h2>
-        <input type="radio" id="yes" name="Comming" value="Yes">
-        <label for="yes">Yes</label>
-        <input type="radio" id="no" name="Comming" value="No">
-        <label for="yes">No</label>
+        <h1>Are you comming:</h1>
+        <h2>
+            <input type="radio" id="yes" name="Comming" value="Yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="Comming" value="No">
+            <label for="yes">No</label>
+        </h2>
     </form>
     <br>
     <form class="plusOne">
-        <h2>
+        <h1>
             <label for="plus_one">If you are bringing a plus 1 tick the box and fill in their info</label>
             <input type="checkbox" id="plus_one">
+        </h1>
+        <h2>
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name"><br>
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email"><br>
+            <label for="cell">Cellphone Number:</label><br>
+            <input type="tel" id="cell">
         </h2>
-        <label for="first_name">First Name:</label><br>
-        <input type="text" id="first_name"><br>
-        <label for="last_name">Last Name:</label><br>
-        <input type="text" id="last_name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" id="email"><br>
-        <label for="cell">Cellphone Number:</label><br>
-        <input type="tel" id="cell">
     </form>
     <br>
     <form class="allergies">
         <label for="allergies">
-            <h2>Please list all food allergies of you and your plus one:</h2>
+            <h1>Please list all food allergies of you and your plus one:</h1>
         </label>
         <textarea type="textarea" id="allergies"></textarea>
     </form>
     <br>
     <form class="registry">
-        <h2>Here is the gift regestry, please enter the gift you chose into the text box at the bottom:</h2>
+        <h1>Here is the gift regestry, please enter the gift you chose into the text box at the bottom:</h1>
         <ul>
-            <li class="kitchen"><h4>Kitchen</h4>
+            <li class="kitchen">
+                <h2>Kitchen</h2>
                 <ul>
                     <li>Cookware</li>
                     <li>Bakeware </li>
@@ -73,7 +97,8 @@
                     <li>Mixing bowls</li>
                 </ul>
             </li>
-            <li class="dining"><h4>Dining and Entertaining</h4>
+            <li class="dining">
+                <h2>Dining and Entertaining</h2>
                 <ul>
                     <li>Everyday dishware</li>
                     <li>Everyday drinking glasses (eight to 12)</li>
@@ -87,7 +112,8 @@
                     <li>Gravy boat</li>
                 </ul>
             </li>
-            <li class="linen"><h4>Linen</h4>
+            <li class="linen">
+                <h2>Linen</h2>
                 <ul>
                     <li>Two everyday sheet sets</li>
                     <li>Flannel/cold-weather sheets</li>
@@ -100,7 +126,8 @@
                     <li>Bath mats </li>
                 </ul>
             </li>
-            <li class="home"><h4>Home and Décor</h4>
+            <li class="home">
+                <h2>Home and Décor</h2>
                 <ul>
                     <li>Bookends</li>
                     <li>Picture frames</li>

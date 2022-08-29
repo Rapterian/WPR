@@ -7,28 +7,7 @@
     background-size: 100% 400%;  
     background-position: center;
 }
-#nav{
-    overflow: hidden;
-    background-color: #c4a4b4;
-    text-align: center;
-}
-#nav a{
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 0.5% 5%;
-    text-decoration: none;
-    font-family: Goudy Old Style;
-    font-weight: bold;
-    font-style: italic;
-    font-size: 160%;
-    margin-left: 2%;
-}
-#nav a:hover{
-    background-color: #e893a7;
-    color: black;
-}
+
 body{
     background-color: #e89d84;
     background-image: url(Images/aaron-burden-FHWgqOniOSY-unsplash.jpg);
@@ -38,10 +17,10 @@ body{
 .RSVP{
     float: left;    
     width: 49%;
-    height: 13.5em;
+    height: 20em;
     text-align: center;
     border: solid;
-    padding-top: 5em;
+    padding-top: 7.5em;
     margin-top: 18px;
     background-color: #f5e5e4;
     background-image: url(Images/Image16.jpg);
@@ -57,7 +36,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     width: 49%;
-    height: 16em;
+    height: 25em;
     text-align: center;
     border: solid;
     padding-top: 2.5em;
@@ -105,12 +84,7 @@ body{
     float: left;
     text-align: left;
     list-style-type: none;
-    margin-top: 15px;
-    /* background-image: url(Images/kithcen_background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
-    
+    margin-top: 15px;/    
 }
 .dining{
     width: 25%;
@@ -118,9 +92,6 @@ body{
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
-    /* background-image: url(Images/entertainment_background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 .linen{
     width: 25%;
@@ -128,10 +99,6 @@ body{
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
-    /* background-image: url(Images/linen_background.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
 .home{
     width: 25%;
@@ -139,8 +106,4 @@ body{
     text-align: left;
     list-style-type: none;
     margin-top: 15px;
-    /* background-image: url(Images/home_decor_background.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; */
 }
