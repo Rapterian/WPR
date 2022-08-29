@@ -25,6 +25,10 @@ nav{
   margin-left: 60px;
   margin-right: 40px;
 }
+nav a:hover{
+    background-color: #e893a7;
+    color: black;
+}
 .Navi{
   display: inline-block;
   margin: 15px;
