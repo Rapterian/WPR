@@ -1,5 +1,5 @@
 .heading{
     font-family: Old Standard TT Italic;
-    size: 25px;
-    
+    font-size: 50px;
+    text-shadow: 2px 2px 5px blue;
 }

@@ -4,7 +4,7 @@
     padding: 5em;
     background-image: url(Images/Flowers.png);
     background-repeat: no-repeat; 
-    background-size: 100% 50em;  
+    background-size: 100% 400%;  
     background-position: center;
 }
 #nav{
