@@ -26,7 +26,7 @@ body{
     background-image: url(Images/Image16.jpg);
     background-size: cover;
     background-repeat: no-repeat;    
-    color: white;
+    color: #f5e5e4;
 }
 .plusOne{
     display: inline-block;
@@ -70,7 +70,7 @@ body{
     background-image: url(Images/wedding_presents.jpg);
     background-size: 100% 120%;
     background-repeat: no-repeat;
-    color: white;
+    color: black;
 
 }
 .registry h3{
@@ -84,7 +84,7 @@ body{
     float: left;
     text-align: left;
     list-style-type: none;
-    margin-top: 15px;/    
+    margin-top: 15px;  
 }
 .dining{
     width: 25%;
