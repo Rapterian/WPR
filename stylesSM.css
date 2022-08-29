@@ -2,7 +2,6 @@ body{
     background:url(./Images/aaron-burden-FHWgqOniOSY-unsplash.jpg) no-repeat;
     object-fit: cover;
     font-family: Goudy Old Style;
-    background-position: center;
 }
 header
 {
@@ -24,7 +23,6 @@ header nav
 {
     float: right;
     font-size: 1em;
-    margin-top: 1em;
     margin-right: 2em;
 }
 header li{
