@@ -1,5 +1,5 @@
 #header{
-    background-color: #f5e5e4;
+    background-color: #e893a7;
     text-align: center;
     padding: 5em;
 }
@@ -25,25 +25,40 @@
     background-color: #e893a7;
     color: black;
 }
+body{
+    background-color: #e89d84;
+    background-image: url(Images/aaron-burden-FHWgqOniOSY-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
 .RSVP{
-    float: left;
-    background-color: #f5e5e4;
+    float: left;    
     width: 49%;
     height: 13.5em;
     text-align: center;
     border: solid;
     padding-top: 5em;
     margin-top: 18px;
+    background-color: #f5e5e4;
+    background-image: url(Images/Image16.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;    
+    color: white;
 }
 .plusOne{
     display: inline-block;
     background-color: #f5e5e4;
+    background-image: url(Images/friends.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     width: 49%;
     height: 16em;
     text-align: center;
     border: solid;
     padding-top: 2.5em;
     margin-left: 1%;
+    color: white;
 }
 .allergies{
     background-color: #f5e5e4;
@@ -53,11 +68,14 @@
     border: solid;
     padding-top: 2.5em;
     margin-top: 18px;
+    background-image: url(Images/Food2.jpeg);
+    color: #f5e5e4;
 }
 .allergies textarea{
     height: 12em;
     width: 20%;
     resize: none;
+    background-color: #f5e5e4;
 }
 .registry{
     width: 100%;
@@ -66,10 +84,10 @@
     padding-top: 2.5em;
     background-color: #f5e5e4;
     border: solid;
-    /* background-image: url(Images/wedding_presents.jpg);
-    background-size: cover;
+    background-image: url(Images/wedding_presents.jpg);
+    background-size: 100% 120%;
     background-repeat: no-repeat;
-    box-shadow: 10px 10px 5px 20px #f5e5e4 inset; */
+    color: white;
 
 }
 .registry h3{
