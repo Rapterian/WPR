@@ -176,6 +176,7 @@ legend{
   height: 350px;
   overflow: scroll;
   overflow-x: hidden;
+  padding-left: 20px;
 }
 #playlist li{
   padding: 10px;
