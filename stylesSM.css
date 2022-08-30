@@ -19,29 +19,16 @@ header #branding
     font-weight: bold;
     display:inline-block;
 }
-header nav
+nav
 {
     float: right;
-    font-size: 1em;
-    margin-right: 2em;
+    padding-bottom: 10px;
+    padding-top: 8px;
 }
 header li{
     float: left;
 }
-.current
-{
-    display: inline-block;
-    padding: 20px;
-}
-header .highlight, header .current a{
 
-    color:white;
-    font-weight: bold;
-    text-decoration: none;
-}
-.header .highlight, header .current a:hover{
-    color: black;
-}
 #boxes .box img{
     width: 20em;
     height: 25em;

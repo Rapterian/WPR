@@ -11,25 +11,6 @@ header h1
   color: #f5e5e4;
   font-size: 200%;
 }
-
-
-nav
-{
-  text-align: center;
-}
-.Navi
-{
-  display: inline-block;
-  list-style: none;
- 
-}
-
-.Navi a
-{
-  text-decoration: none;
-  color:  #f5e5e4;
-  padding: 1rem;
-}
  .container
  {
   padding: 2rem;

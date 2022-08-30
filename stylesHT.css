@@ -1,12 +1,12 @@
 *
 {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body
 {
-    background-image: url(./Images/Heading\ Background.png); 
-    background-size: 130%;
+  background-image: url(./Images/Heading\ Background.png); 
+  background-size: 130%;
 }
 
 header h1
@@ -17,42 +17,22 @@ header h1
   font-size: 200%;
   padding: 1rem;
 }
-
-
-nav
+#Content
 {
-  text-align: center;
-
+  width: 60%;
+  height: 50rem;
+  border: 5px solid #f5e5e4 ;
+  box-shadow: #E893A7 2px 2px 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-top-left-radius: 15%;
+  border-top-right-radius: 15%;
+  background-image: linear-gradient(#E893A7,#E89D84);
 }
-.Navi
+
+article
 {
-  display: inline-block;
-  list-style: none;
- 
-}
-
-.Navi a
-{
-  text-decoration: none;
-  color:  #f5e5e4;
-  padding: 1rem;
-}
- #Content
- {
-    width: 60%;
-    height: 50rem;
-    border: 5px solid #f5e5e4 ;
-    box-shadow: #E893A7 2px 2px 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 2%;
-    border-top-left-radius: 15%;
-    border-top-right-radius: 15%;
-     background-image: linear-gradient(#E893A7,#E89D84);
- }
-
- article
- {
   width: 90%;
   height: 45em;
   border-top-left-radius: 10%;
@@ -61,10 +41,10 @@ nav
   margin-left: auto;
   margin-right: auto;
   margin-top: 2em;
- }
+}
 
- article h2
- {
+article h2
+{
   font-family: Goudy Old Style;
   text-align: center;
   color: #f5e5e4;
@@ -82,7 +62,7 @@ nav
   top: 2.5em;
   text-decoration: underline;
 }
- 
+
 .Audio
 {
   float: right;
@@ -112,7 +92,6 @@ footer
   padding-top: 1rem;
 }
 
-
 label
 {
   color: #f5e5e4;
@@ -122,13 +101,13 @@ label
 
 button
 {
- position: relative;
- left: 19.5rem;
- top: 5.5rem;
- background-color: #E893A7;
- padding: 8px;
- border-radius: 20%;
- border: 2px dotted #f5e5e4 ;
+  position: relative;
+  left: 19.5rem;
+  top: 5.5rem;
+  background-color: #E893A7;
+  padding: 8px;
+  border-radius: 20%;
+  border: 2px dotted #f5e5e4 ;
 }
 
 main
@@ -146,7 +125,6 @@ main
 
 h4
 {
-  font-family: Goudy Old Style;
   text-align: center;
   color: #f5e5e4;
   text-decoration: underline;
@@ -158,4 +136,3 @@ main p
   color: #f5e5e4;
   padding: 5px;
 }
-
