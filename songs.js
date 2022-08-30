@@ -4,6 +4,5 @@ function audioPlayer(){
     $
     $("#playlist li a").click(function(e){e.preventDefault();
     $("#audioPlayer")[0].src = this;
-    $("#playlist li a").click().play();
     });
 } 
