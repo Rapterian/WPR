@@ -9,6 +9,7 @@ header
     min-height: 3.4em;
     border: #e893a7 5px solid;
     border-radius: 1em;
+    height: 200px;
 }
 header #branding
 {

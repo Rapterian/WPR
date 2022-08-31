@@ -7,10 +7,12 @@ header
 {
     color: white;
     min-height: 3.4em;
-    border: #e893a7 10px solid;
     margin-left: -0.5em;
     margin-top: -0.5em;
     margin-right: -0.5em;
+    height: 200px;
+    border: #e893a7 5px solid;
+    border-radius: 1em;
 }
 header #branding
 {
